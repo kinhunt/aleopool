@@ -3,8 +3,10 @@ export default {
   head: {
     title: 'aleopool',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
+      "data-theme": 'cyberpunk'
     },
+
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,7 +15,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
